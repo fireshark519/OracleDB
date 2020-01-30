@@ -1,0 +1,5 @@
+
+
+
+select distinct table_name from all_tab_columns where column_name LIKE  '%example%'
+;
