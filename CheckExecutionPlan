@@ -1,0 +1,12 @@
+##################################################################
+
+
+#### BEFORE RUNNING THE QUERY WRITE THE FOLLOWING SQL CODE LINE:
+
+EXPLAIN PLAN FOR, AFTERWARDS RUN THIS
+
+#################################################################
+
+
+select plan_table_output
+from table(dbms_xplan.display('plan_table',null,'all'));
